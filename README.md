@@ -38,4 +38,5 @@ semester.
     "COMP8420": {"offered": ["S1", "S2"], "prereq": ["COMP6420"]}, 
     "COMP8430": {"offered": ["S2"], "prereq": ["COMP6420"]}, 
     "COMP8440": {"offered": ["S1"], "prereq": ["COMP6200"]}
-}```
+}
+```
