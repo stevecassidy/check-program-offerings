@@ -1,0 +1,19 @@
+{
+    "COMP6210": {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6250": {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6320": {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6325": {"offered": ["S1", "S2"], "prereq": []}, 
+    
+    "COMP8110": {"offered": ["S2"], "prereq": ["COMP6250"]}, 
+    "COMP8250": {"offered": ["S1"], "prereq": ["COMP6250"]}, 
+    "COMP8260": {"offered": ["S2"], "prereq": ["COMP6250"]}, 
+    
+    "COMP8270": {"offered": ["S1"], "prereq": ["COMP6250"]}, 
+    "COMP8280": {"offered": ["S2"], "prereq": ["COMP6250"]}, 
+    "COMP8290": {"offered": ["S1"], "prereq": ["COMP6250"]}, 
+
+    "COMP6260": {"offered": ["S1"], "prereq": ["COMP6250"]}, 
+    "COMP6265": {"offered": ["S2"], "prereq": ["COMP6260"]}, 
+    "COMP8210": {"offered": ["S1", "S2"], "prereq": ["COMP6210"]},
+    "COMP8310": {"offered": ["S2"], "prereq": ["COMP6250"]}
+}

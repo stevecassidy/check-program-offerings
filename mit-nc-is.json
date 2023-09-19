@@ -1,0 +1,19 @@
+{
+    "COMP6010": {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6F-DB":     {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6F-PM":     {"offered": ["S1"], "prereq": []}, 
+    "COMP6F-Cloud":  {"offered": ["S2"], "prereq": []}, 
+    "COMP6F-SAD":    {"offered": ["S1"], "prereq": []}, 
+    "COMP6F-Cyber":  {"offered": ["S1", "S2"], "prereq": []}, 
+
+    "COMP8C-PM": {"offered": ["S1", "S2"], "prereq": ["COMP6F-PM"]}, 
+    "COMP8C-PP": {"offered": ["S1", "S2"], "prereq": ["COMP6F-DB"]}, 
+
+    "COMP6760": {"offered": ["S1", "S2"], "prereq": ["COMP6010"]}, 
+    "COMP6S-Analytics": {"offered": ["S1", "S2"], "prereq": []}, 
+    
+    "COMP8S-Modelling": {"offered": ["S2"], "prereq": ["COMP6760"]}, 
+    "COMP8S-BPM": {"offered": ["S1"], "prereq": ["COMP6760"]},
+    "COMP8780":   {"offered": ["S2"], "prereq": ["COMP6F-PM"]}, 
+    "COMP8S-BusIntel":{"offered": ["S1"], "prereq": ["COMP6S-Analytics"]}
+}

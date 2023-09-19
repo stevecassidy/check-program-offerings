@@ -1,0 +1,19 @@
+{
+    "COMP6010": {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6F-DB":     {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6F-PM":     {"offered": ["S1"], "prereq": []}, 
+    "COMP6F-Cloud":  {"offered": ["S2"], "prereq": []}, 
+    "COMP6F-SAD":    {"offered": ["S1"], "prereq": []}, 
+    "COMP6F-Cyber":  {"offered": ["S1", "S2"], "prereq": []}, 
+
+    "COMP8C-PM": {"offered": ["S1", "S2"], "prereq": ["COMP6F-PM"]}, 
+    "COMP8C-PP": {"offered": ["S1", "S2"], "prereq": ["COMP6F-DB"]}, 
+
+    "COMP6320": {"offered": ["S1", "S2"], "prereq": ["COMP6F-Cyber"]}, 
+    "COMP6325": {"offered": ["S1", "S2"], "prereq": ["COMP6F-Cyber"]}, 
+    
+    "COMP8310": {"offered": ["S1"], "prereq": ["COMP6F-Cyber"]}, 
+    "ACCG8086": {"offered": ["S2"], "prereq": ["COMP6F-Cyber"]},
+    "PICT8040":   {"offered": ["S2"], "prereq": ["COMP6F-Cyber"]}, 
+    "COMP8S-Security":{"offered": ["S1"], "prereq": ["COMP6F-Cyber"]}
+}

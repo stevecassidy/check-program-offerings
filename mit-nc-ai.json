@@ -1,0 +1,19 @@
+{
+    "COMP6010": {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6F-DB":     {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6F-PM":     {"offered": ["S1"], "prereq": []}, 
+    "COMP6F-Cloud":  {"offered": ["S2"], "prereq": []}, 
+    "COMP6F-SAD":    {"offered": ["S1"], "prereq": []}, 
+    "COMP6F-Cyber":  {"offered": ["S1", "S2"], "prereq": []}, 
+
+    "COMP8C-PM": {"offered": ["S1", "S2"], "prereq": ["COMP6F-PM"]}, 
+    "COMP8C-PP": {"offered": ["S1", "S2"], "prereq": ["COMP6F-DB"]}, 
+
+    "COMP6200": {"offered": ["S1", "S2"], "prereq": ["COMP6010"]}, 
+    "STAT6170": {"offered": ["S1", "S2"], "prereq": []}, 
+    
+    "PHIL8400": {"offered": ["S2"], "prereq": ["COMP6F-Cyber"]}, 
+    "COMP8440": {"offered": ["S1"], "prereq": ["COMP6200"]},
+    "COMP8S-NLP":   {"offered": ["S1"], "prereq": ["COMP6200", "STAT6170"]}, 
+    "COMP8S-Vision":{"offered": ["S2"], "prereq": ["COMP6200", "STAT6170"]}
+}

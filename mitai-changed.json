@@ -1,0 +1,16 @@
+{
+    "COMP6200": {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6350": {"offered": ["S2"], "prereq": []}, 
+    "STAT6170": {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6010": {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6400": {"offered": ["S1"], "prereq": []}, 
+    "COMP6410": {"offered": ["S2"], "prereq": ["COMP6200"]}, 
+    "COMP6420": {"offered": ["S1", "S2"], "prereq": ["COMP6200"]}, 
+    "BUSA6430": {"offered": ["S1"], "prereq": ["COMP6200"]}, 
+    "COMP8221": {"offered": ["S1", "S2"], "prereq": ["COMP6420"]}, 
+    "COMP8400": {"offered": ["S2"], "prereq": ["COMP6400"]}, 
+    "COMP8410": {"offered": ["S1"], "prereq": ["COMP6400"]}, 
+    "COMP8420": {"offered": ["S1", "S2"], "prereq": ["COMP6420"]}, 
+    "COMP8430": {"offered": ["S2"], "prereq": ["COMP6420"]}, 
+    "COMP8440": {"offered": ["S1"], "prereq": ["COMP6200"]}
+}
