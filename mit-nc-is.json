@@ -1,19 +1,19 @@
 {
     "COMP6010": {"offered": ["S1", "S2"], "prereq": []}, 
-    "COMP6F-DB":     {"offered": ["S1", "S2"], "prereq": []}, 
-    "COMP6F-PM":     {"offered": ["S1"], "prereq": []}, 
-    "COMP6F-Cloud":  {"offered": ["S2"], "prereq": []}, 
-    "COMP6F-SAD":    {"offered": ["S1"], "prereq": []}, 
-    "COMP6F-Cyber":  {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6150": {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6770": {"offered": ["S1"], "prereq": []},
+    "COMP6170": {"offered": ["S2"], "prereq": []},
+    "COMP6180": {"offered": ["S1"], "prereq": []},
+    "COMP6013": {"offered": ["S1", "S2"], "prereq": []},
 
-    "COMP8C-PM": {"offered": ["S1", "S2"], "prereq": ["COMP6F-PM"]}, 
-    "COMP8C-PP": {"offered": ["S1", "S2"], "prereq": ["COMP6F-DB"]}, 
+    "COMP8770": {"offered": ["S1", "S2"], "prereq": ["COMP6770"]}, 
+    "COMP8700": {"offered": ["S1", "S2"], "prereq": ["COMP6150"]}, 
 
     "COMP6760": {"offered": ["S1", "S2"], "prereq": ["COMP6010"]}, 
-    "COMP6S-Analytics": {"offered": ["S1", "S2"], "prereq": []}, 
+    "COMP6740": {"offered": ["S1", "S2"], "prereq": []}, 
     
-    "COMP8S-Modelling": {"offered": ["S2"], "prereq": ["COMP6760"]}, 
-    "COMP8S-BPM": {"offered": ["S1"], "prereq": ["COMP6760"]},
-    "COMP8780":   {"offered": ["S2"], "prereq": ["COMP6F-PM"]}, 
-    "COMP8S-BusIntel":{"offered": ["S1"], "prereq": ["COMP6S-Analytics"]}
+    "COMP8750": {"offered": ["S2"], "prereq": ["COMP6760"]}, 
+    "COMP8760": {"offered": ["S1"], "prereq": ["COMP6760"]},
+    "COMP8780": {"offered": ["S2"], "prereq": ["COMP6770"]}, 
+    "BUSA8030": {"offered": ["S1", "S2"], "prereq": ["COMP6010"]}
 }
